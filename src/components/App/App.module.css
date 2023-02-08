@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none; /* IE и Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 10px;
+  background-color: coral;
+  color: white;
+  position: fixed;
+  padding: 5px;
+  width: 100%;
+  top: 0;
+}
